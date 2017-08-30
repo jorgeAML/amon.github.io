@@ -3,7 +3,7 @@ The Amon theme is just another project from Jorge AML using bootstrap, as you ca
 Right now I am gonna explain what changes I did in this new theme: 
 **all the new styles are in css/theme-aml/asphalt.css**
 
-###Before we get started
+### Before we get started
 
 I just to remember to install bootstrap on your desktop, so you have RubyGems and adding the following line to your GemFile:
 ```
@@ -27,6 +27,7 @@ If you’re using our compiled JavaScript, don’t forget to include CDN version
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
 ```
+## the CSS asphalt on Amon
 
 1. navs 
 the new style of the navs has a new style that is a background, border-bottom and a box-shadow. you need to know what changes are: 
