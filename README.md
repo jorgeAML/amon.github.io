@@ -69,3 +69,10 @@ this new property has:
     text-decoration: none;
 }
 ```
+## New containers
+
+1. If you have to create new container with new same theme *amon* use the class **mode-night** 
+
+2. If you need to centre your paragraphs use the class: **center**
+
+3. If you only need a simple paragraph with a cool padding use the class: **aml-body**
