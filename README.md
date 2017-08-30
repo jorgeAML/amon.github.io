@@ -20,4 +20,25 @@ You can use the class **aml_banner** when you create a new object or a new div i
 3. class **list-group-aml*** and ***list-group-item-aml***
 
 obviously is the same class in bootstrap but with the *aml* code, this class I recommend to use with a *container-fluid* and a *col-sm-3* you can use with up to 4 or 5 but I not recommend a *col-sm-6* or *col-md-6* because it won't be a list, you will be like a large container and you lost the complex of the container.
-the *list-group-item-aml* has a new *display* code that is *block* I use this property because I need an the element generates a block element box.
+the *list-group-item-aml* has a new *display* code that is *block* I use this property because I need the element generates a block element box.
+
+this new property has:
+```
+.list-group-aml {
+    background-color: #142842;
+    margin-bottom: 5%;
+    border: 4px solid #2a4d69;
+    border-radius: 5px;
+}
+.list-group-item-aml {
+    color: #e7eff6;
+    display: block;
+    padding: 3%;
+    border-bottom: 1px solid #2a4d69;
+}
+.list-group-item-aml:hover {
+    color:     #ff9900;
+    background-color: #002448;
+    text-decoration: none;
+}
+```
