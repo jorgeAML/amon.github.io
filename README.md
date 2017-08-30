@@ -71,12 +71,29 @@ this new property has:
 ```
 ## New containers
 
-1. If you have to create new container with new same theme *amon* use the class **mode-night** 
-
+1. If you have to create new container with new same theme *amon* use the class **mode-night** we hide the *text-align* because that we create the center class.
+```
+.mode-night {
+	background-color: #142842;
+	color: #e7eff6;
+	border: 4px solid #2a4d69;
+	border-radius: 5px;
+	padding: 5px;
+	/*text-align: center;*/
+}
+```
 2. If you need to centre your paragraphs use the class: **center**
-
+```
+.center h3 {
+	text-align: center;
+}
+```
 3. If you only need a simple paragraph with a cool padding use the class: **aml-body**
-
+```
+.aml-body {
+	padding: 3%;
+}
+```
 ## Links 
 I use three different classes for links
 1. **aml-anat** use this class if you need a cyan colour paragraphs with a hover colour: salmon.
