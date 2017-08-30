@@ -4,8 +4,8 @@ Right now I am gonna explain what changes I did in this new theme:
 all the new styles are in css/theme-aml/asphalt.css
 1. navs 
 the new style of the navs has a new style that is a background, border-bottom and a box-shadow. you need to know what changes are: 
-``` 
-*background-colour: #1a2636;*
- *border-bottom: 4px solid #2a4d69;*
- *box-shadow: 0px 1px 1px 1px #0e1a40;*
+``` asphalt.css
+background-colour: #1a2636;
+border-bottom: 4px solid #2a4d69;
+box-shadow: 0px 1px 1px 1px #0e1a40;
 ```
