@@ -15,7 +15,9 @@ This  class have a *margin-top of 2%*  because navs have a new height, so when y
 margin-top: 2%;
 left: 0;
 ```
-You can use the class **aml_banner** when you create a new object or a new div in your HTML 
+You can use the class **aml_banner** when you create a new object or a new div in your HTML.
+
 3. class **list-group-aml*** and ***list-group-item-aml***
+
 obviously is the same class in bootstrap but with the *aml* code, this class I recommend to use with a *container-fluid* and a *col-sm-3* you can use with up to 4 or 5 but I not recommend a *col-sm-6* or *col-md-6* because it won't be a list, you will be like a large container and you lost the complex of the container.
 the *list-group-item-aml* has a new *display* code that is *block* I use this property because I need an the element generates a block element box.
