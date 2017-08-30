@@ -28,7 +28,7 @@ If you’re using our compiled JavaScript, don’t forget to include CDN version
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
 ```
 ## the CSS asphalt on Amon
-#### the asphalt.css use all classes of bootstrap but the new extension *-aml* but some classes have a different names of classes.
+#### the asphalt.css use all classes of bootstrap but the new extension *-aml* but some classes have a exclusion.
 1. **navs**
 the new style of the navs has a new style that is a background, border-bottom and a box-shadow. you need to know what changes are: 
 ``` asphalt.css
