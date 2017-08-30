@@ -2,6 +2,17 @@
 The Amon theme is just another project from Jorge AML using bootstrap, as you can see in the link above or here: [Amon theme](https://jorgeaml.github.io/amon.github.io/) I change a lot of colours and environment of the basic template of bootstrap because the Amon theme it's thinking to use in the night. 
 Right now I am gonna explain what changes I did in this new theme: 
 **all the new styles are in css/theme-aml/asphalt.css**
+
+Before we get started I just to remember to install bootstrap on your desktop, so you have RubyGems and adding the following line to your GemFile:
+```
+gem 'bootstrap', '~> 4.0.0.alpha6'
+```
+Alternatively, if you’re not using Bundler, you can install the gem by running this command:
+```
+gem install bootstrap -v 4.0.0.alpha6
+```
+or make it simply, download the source code at [getbootstrap](https://github.com/twbs/bootstrap/releases/download/v4.0.0-beta/bootstrap-4.0.0-beta-dist.zip)
+
 1. navs 
 the new style of the navs has a new style that is a background, border-bottom and a box-shadow. you need to know what changes are: 
 ``` asphalt.css
