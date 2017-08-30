@@ -77,10 +77,34 @@ this new property has:
 
 3. If you only need a simple paragraph with a cool padding use the class: **aml-body**
 
-##Links 
+## Links 
 I use three different classes for links
 1. **aml-anat** use this class if you need a cyan colour paragraphs with a hover colour: salmon.
-
+```
+.aml-anat {
+	color: #c6e2ff;
+}
+.aml-anat:hover {
+	color: #ff4444;
+}
+```
 2. **cap-a** this class is the usual link with an Esmeralda colour and a hover colour: salmon.
-
+```
+.cap-a {
+	color: #47d1d1;
+}
+.cap-a:hover {
+	color: #dd5757;
+	font-weight: bold;
+}
+```
 3. **cap-b** this class has a white colour paragraph and hover colour of salmon.
+```
+.cap-b {
+	color: #e7eff6;
+}
+.cap-b:hover {
+	color: #dd5757;
+	font-weight: bold;
+}
+```
