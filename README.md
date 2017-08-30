@@ -28,7 +28,7 @@ If you’re using our compiled JavaScript, don’t forget to include CDN version
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
 ```
 ## the CSS asphalt on Amon
-#### the asphalt.css use all classes of bootstrap but the new extension *-aml* but some classes have a exclusion.
+#### the asphalt.css use all classes of bootstrap but with the new extension *-aml* but some classes have a exclusion.
 1. **navs**
 the new style of the navs has a new style that is a background, border-bottom and a box-shadow. you need to know what changes are: 
 ``` asphalt.css
@@ -44,7 +44,7 @@ left: 0;
 ```
 You can use the class **aml_banner** when you create a new object or a new div in your HTML.
 
-3. class **list-group-aml*** and ***list-group-item-aml***
+3. class **list-group-aml** and ***list-group-item-aml***
 
 obviously is the same class in bootstrap but with the *aml* code, this class I recommend to use with a *container-fluid* and a *col-sm-3* you can use with up to 4 or 5 but I not recommend a *col-sm-6* or *col-md-6* because it won't be a list, you will be like a large container and you lost the complex of the container.
 the *list-group-item-aml* has a new *display* code that is *block* I use this property because I need the element generates a block element box.
