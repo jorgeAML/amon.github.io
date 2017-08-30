@@ -3,7 +3,9 @@ The Amon theme is just another project from Jorge AML using bootstrap, as you ca
 Right now I am gonna explain what changes I did in this new theme: 
 **all the new styles are in css/theme-aml/asphalt.css**
 
-Before we get started I just to remember to install bootstrap on your desktop, so you have RubyGems and adding the following line to your GemFile:
+###Before we get started
+
+I just to remember to install bootstrap on your desktop, so you have RubyGems and adding the following line to your GemFile:
 ```
 gem 'bootstrap', '~> 4.0.0.alpha6'
 ```
@@ -12,6 +14,19 @@ Alternatively, if you’re not using Bundler, you can install the gem by running
 gem install bootstrap -v 4.0.0.alpha6
 ```
 or make it simply, download the source code at [getbootstrap](https://github.com/twbs/bootstrap/releases/download/v4.0.0-beta/bootstrap-4.0.0-beta-dist.zip)
+
+## Using a CDN
+
+Or another way skip the download with the Bootstrap CDN to deliver the cached version of Bootstrap’s compiled CSS and JS to your project.
+```
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+```
+If you’re using our compiled JavaScript, don’t forget to include CDN versions of jQuery and Popper.js before it.
+```
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+```
 
 1. navs 
 the new style of the navs has a new style that is a background, border-bottom and a box-shadow. you need to know what changes are: 
