@@ -76,3 +76,11 @@ this new property has:
 2. If you need to centre your paragraphs use the class: **center**
 
 3. If you only need a simple paragraph with a cool padding use the class: **aml-body**
+
+##Links 
+I use three different classes for links
+1. **aml-anat** use this class if you need a cyan colour paragraphs with a hover colour: salmon.
+
+2. **cap-a** this class is the usual link with an Esmeralda colour and a hover colour: salmon.
+
+3. **cap-b** this class has a white colour paragraph and hover colour of salmon.
