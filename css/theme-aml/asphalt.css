@@ -118,6 +118,12 @@ tr {
 .center h3 {
 	text-align: center;
 }
+.centerio {
+	text-align: center;
+	display: inline-block;
+	margin-left: 5%;
+	padding-bottom: 1%;
+}
 .asphalt-container {
 	background-color: #142842;
 	border-radius: 5px;
@@ -163,4 +169,17 @@ tr {
 .cap-b:hover {
 	color: #dd5757;
 	font-weight: bold;
+}
+.plugin-img {
+	width: 100%;
+}
+.aml-capuf {
+	background-color: #142842;
+	color: #e7eff6;
+	border: 4px solid #2a4d69;
+	border-radius: 5px;
+	margin-bottom: 15px;
+}
+.aml-capuf h3 {
+	text-align: center;
 }
